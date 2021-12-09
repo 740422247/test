@@ -38,7 +38,8 @@
     "*.{js,jsx,vue,ts,tsx}": [
       "yarn lint",
       "prettier --write",
-      "git add"
+      "git add",
+      "eslint --cache --fix"
     ]
   }
 }
