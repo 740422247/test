@@ -39,7 +39,7 @@
       "yarn lint",
       "prettier --write",
       "git add",
-      "eslint --cache --fix"
+      "eslint --fix"
     ]
   }
 }
