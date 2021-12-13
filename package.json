@@ -2,7 +2,7 @@
   "name": "vite_vue3_ts",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
@@ -28,7 +28,6 @@
     "vite": "^2.6.4",
     "vue-tsc": "^0.3.0"
   },
- 
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -38,8 +37,7 @@
     "*.{js,jsx,vue,ts,tsx}": [
       "yarn lint",
       "prettier --write",
-      "git add",
-      "eslint --fix"
+      "git add"
     ]
   }
 }

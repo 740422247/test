@@ -6,9 +6,6 @@ export default defineComponent({
     const notable = () => {
       console.log(111);
     };
-
-
-    
     const objparams = {
       name: "aaa",
       id: "1",
